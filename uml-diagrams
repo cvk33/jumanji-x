@@ -1,0 +1,14 @@
+graph TD;
+    
+    Node --> Composite
+    Node --> Composite1
+    
+    Composite-->Leaf1;
+    Composite-->Decorator;
+    Composite-->Leaf2;
+    Decorator-->Leaf3;
+
+    Composite1-->Leaf4;
+    Composite1-->Decorator2;
+    Composite1-->Leaf5;
+    Decorator2-->Leaf6;
